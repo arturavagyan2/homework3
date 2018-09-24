@@ -1,0 +1,95 @@
+ <script>
+const operations = function(a,b,c,d) {
+   return ((a * b) + c)/ d;
+    };
+
+   const z = operations(9,4,8,2);
+   console.log(z);
+   
+const emptyFunc= function(){
+    return "I love CS110 "
+     };
+    const c = emptyFunc() 
+    console.log(c);
+  
+const emptyReturn = function(g,h){
+  number=(g + h)/2
+    return
+    };
+  
+const longest = function(x,y,z){   
+    if ((x.length > y.length)  && (x.length > z.length)){
+        return x;
+         } else if ((y.length > x.length) && (y.length > z.length)){
+            return y;
+               } else { 
+                   return z;
+           
+               }
+         };
+       const h = longest ("aspire","inspire","achieve")
+       console.log(h);
+      
+const zeroOne = function (x,y){
+     
+    if (x === y){
+      return 0;
+      } else if (x > y){
+          return 1;
+             } else {
+                 return -1;
+      } 
+ 
+    };
+        const m = zeroOne(2,8);
+     console.log(m);
+
+const multiplication = function ( num1,num2)  {
+  return num1*num2
+  };
+  const a = multiplication (17,3);
+  console.log(a);
+    
+const division = function (num3,num4) {
+    return num3/num4
+  };
+  const b = division (366,6)
+  console.log(b);
+  
+const  triangleArea = function(base,height) {
+  return ((base * height)/2)
+    }; 
+     const g = triangleArea(17,12)
+     console.log(g);
+ 
+const numLength = function (x){
+     return x.length 
+     
+   };
+   const n = numLength("8389859073");
+   console.log(n);
+   
+const oneStuff= function (str1,str2,num) {
+
+   if ((str1+str2).length > num){
+    return 1;
+   } else {
+    return -1;
+ } 
+ };
+   const e = oneStuff("Joe","Poghosyan",18);
+  console.log(e);
+    
+const runStuff = function(num1,num2,str){
+       if ( str ==='rectangle'){
+    return num1*num2;
+} else if (str === 'triangle'){
+  return (num1*num2)/2;
+} else {
+    return -1;
+} 
+ 
+};
+  const o = runStuff(25,16,'triangle');
+  console.log(o);
+</script>
