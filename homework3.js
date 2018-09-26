@@ -1,8 +1,6 @@
- <script>
-const operations = function(a,b,c,d) {
+    const operations = function(a,b,c,d) {
    return ((a * b) + c)/ d;
     };
-
    const z = operations(9,4,8,2);
    console.log(z);
    
@@ -14,7 +12,6 @@ const emptyFunc= function(){
   
 const emptyReturn = function(g,h){
   number=(g + h)/2
-    return
     };
   
 const longest = function(x,y,z){   
@@ -56,11 +53,16 @@ const division = function (num3,num4) {
   const b = division (366,6)
   console.log(b);
   
-const  triangleArea = function(base,height) {
-  return ((base * height)/2)
-    }; 
-     const g = triangleArea(17,12)
-     console.log(g);
+const  triangleArea = function(base, height) {
+     const Area = multiplication(base,height)
+     const Area1 = division(Area, 2)
+     return Area1
+
+ }; 
+  
+     const trA = triangleArea(24,16)
+     console.log(trA);
+  
  
 const numLength = function (x){
      return x.length 
@@ -92,4 +94,3 @@ const runStuff = function(num1,num2,str){
 };
   const o = runStuff(25,16,'triangle');
   console.log(o);
-</script>
