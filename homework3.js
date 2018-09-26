@@ -10,7 +10,7 @@ const emptyFunc= function(){
     const c = emptyFunc() 
     console.log(c);
   
-const emptyReturn = function(g,h){
+const noReturn = function(g,h){
   number=(g + h)/2
     };
   
